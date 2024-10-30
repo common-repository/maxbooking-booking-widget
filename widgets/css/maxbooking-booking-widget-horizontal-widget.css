@@ -1,0 +1,41 @@
+/* Horizontal */
+form.maxbooking-booking-widget-horizontal {
+    display: flex;
+	flex-wrap: wrap;
+    align-items: flex-end;
+	max-width: 50em;
+}
+.maxbooking-booking-widget-horizontal .maxbooking-booking-widget-control-group {
+    flex-grow: 1;
+  	margin: 0.2em;
+    text-align: left;
+}
+.maxbooking-booking-widget-horizontal .maxbooking-booking-widget-control-group.maxbooking-booking-widget-property,
+.maxbooking-booking-widget-horizontal .maxbooking-booking-widget-control-group.maxbooking-booking-widget-location {
+	flex-basis: 13em;
+}
+.maxbooking-booking-widget-horizontal .maxbooking-booking-widget-control-group.maxbooking-booking-widget-arrival {
+	flex-basis: 10em;
+}
+.maxbooking-booking-widget-horizontal .maxbooking-booking-widget-control-group.maxbooking-booking-widget-nights,
+.maxbooking-booking-widget-horizontal .maxbooking-booking-widget-control-group.maxbooking-booking-widget-guests {
+	flex-basis: 6em;
+}
+.maxbooking-booking-widget-horizontal .maxbooking-booking-widget-control-group.maxbooking-booking-widget-search {
+    flex-basis: 7em;
+}
+.maxbooking-booking-widget-horizontal .maxbooking-booking-widget-control-group label {
+    display: block;
+	margin-bottom: 0.2em;
+}
+.maxbooking-booking-widget-horizontal .maxbooking-booking-widget-control-group button {
+    line-height: 1;
+}
+.maxbooking-booking-widget-horizontal .maxbooking-booking-widget-control-group > select,
+.maxbooking-booking-widget-horizontal .maxbooking-booking-widget-control-group > input,
+.maxbooking-booking-widget-horizontal .maxbooking-booking-widget-control-group > button {
+  width: 100%;
+  box-sizing: border-box;
+  height: 2.8em;
+  /* padding: 0.2em; */
+}

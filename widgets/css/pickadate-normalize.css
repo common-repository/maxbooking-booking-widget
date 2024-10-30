@@ -1,0 +1,33 @@
+.picker__button--today,
+.picker__button--clear,
+.picker__button--close,
+.picker__button--today:hover,
+.picker__button--clear:hover,
+.picker__button--close:hover {
+    display: inline;
+    margin: 0 !important;
+    padding: .66em 0 !important;
+    overflow: visible;
+    text-transform: none;
+    -webkit-appearance: button;
+    color: #000000;
+    border-radius: 0;
+    font-size: 0.8em !important;
+    box-shadow: none;
+}
+/*.picker button::-moz-focus-inner {
+    border-style: none;
+    padding: 0;
+}
+.picker button:-moz-focusring {
+    outline: 1px dotted ButtonText;
+}*/
+.picker__table,
+.picker__weekday,
+.picker tr,
+.picker td {
+    margin: 0;
+    padding: 0 !important;
+    border: none !important;
+    text-align: center;
+}

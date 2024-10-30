@@ -1,0 +1,24 @@
+/* Vertical */
+.maxbooking-booking-widget-vertical .maxbooking-booking-widget-nights-guests-block {
+    display: flex;
+}
+.maxbooking-booking-widget-vertical .maxbooking-booking-widget-nights-guests-block .maxbooking-booking-widget-control-group {
+    margin: 0.5em 0;
+    flex: 1;
+}
+.maxbooking-booking-widget-vertical .maxbooking-booking-widget-nights-guests-block .maxbooking-booking-widget-control-group:first-child {
+    margin-right: 0.5em;
+}
+.maxbooking-booking-widget-vertical .maxbooking-booking-widget-control-group label {
+    display: block;
+    margin: 0.25em 0;
+    text-align: left;
+}
+.maxbooking-booking-widget-vertical .maxbooking-booking-widget-control-group select,
+.maxbooking-booking-widget-vertical .maxbooking-booking-widget-control-group input[type="text"] {
+    display: block;
+    width: 100%;
+}
+.maxbooking-booking-widget-vertical .maxbooking-booking-widget-control-group.maxbooking-booking-widget-search button[type="submit"] {
+    width: 100%;
+}

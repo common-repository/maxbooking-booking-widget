@@ -1,0 +1,15 @@
+.maxbooking-booking-widget-widget .maxbooking-booking-widget-control-group select,
+.maxbooking-booking-widget-widget .maxbooking-booking-widget-control-group input[type="text"] {
+	margin: 0;
+    padding: 0.5em 0.6em;
+    box-sizing: border-box;
+	width: 100%;
+    text-transform: none;
+}
+.maxbooking-booking-widget-control-group.maxbooking-booking-widget-arrival input[type="text"] {
+	cursor: pointer;
+}
+.maxbooking-booking-widget-control-group.maxbooking-booking-widget-search button[type="submit"] {
+    margin: 0;
+    padding: 0.75em 0.6em;
+}
